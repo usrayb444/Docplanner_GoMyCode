@@ -198,6 +198,13 @@ select option {
   margin-top: 50px;
   gap: 10px;
 }
+.brands-logo img {
+  filter: grayscale(100%);
+}
+.brands-logo img:hover {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
 
 .sect-1 img {
   width: 100px;
